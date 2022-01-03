@@ -1,0 +1,5 @@
+// minificar os arquivos css
+cleancss -o experiencia.min.css experiencia.css
+
+//unificar o style.css pelos import
+cleancss -o style.mim.css style.css
