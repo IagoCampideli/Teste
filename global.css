@@ -32,6 +32,7 @@ img {
   word-break: break-all;
   text-transform: uppercase;
   color: #ecf0f1;
+  padding: 10px;
 }
 .bg {
   background-color: black;
