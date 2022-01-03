@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Usando rem ao invés de px, em*/
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  /*rolar lentamente*/
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color); /*sem background o texto fica azul*/
+  line-height: 1.5;
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 5rem;
+}
+H4 {
+  font-size: 4.5rem;
+}
+h5 {
+  font-size: 4rem;
+}
+h6 {
+  font-size: 3.5rem;
+}
+/*AQUI RESETA O LINK, TIRA SUBLINHADO*/
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 3rem;
+}

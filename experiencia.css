@@ -65,6 +65,14 @@ strong {
   line-height: 1.4;
   align-content: flex-start;
 }
+.botao::before {
+  content: "👈";
+  display: block;
+
+  position: absolute;
+  top: 30px;
+  left: 330px;
+}
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
